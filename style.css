@@ -142,7 +142,6 @@ button
 .small-circle
 {
     position: absolute;
-    top:
 }
 .laptop-select
 {
@@ -153,6 +152,27 @@ button
     position: absolute;
     right:20%;
 }
+
+
+i {
+    cursor: pointer;
+}
+
+
+.cntct {
+    text-align: center;
+    margin: 2% 0%;
+}
+
+.cntct-1{
+    margin-top: 20%;
+    text-align: center;
+}
+
+.ic {
+    padding: 2% 2%;
+}
+
 @keyframes laptop
 {
     0%{
