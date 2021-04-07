@@ -41,16 +41,22 @@
                 </div>
             </div>
             <div class="cover">
-                <img src="./img/matebook.png" alt="matebook0">
+                <img id="a" src="./img/matebook.png" alt="matebook0">
+            </div>
+            <div class="cover">
+                <img id="b" src="./img/mac.png" alt="matebook0">
+            </div>
+            <div class="cover">
+                <img id="c" src="./img/tab.png" alt="matebook0">
             </div>
 
         </section>
         <div class="laptop-select">
-            <img src="./img/arrow-left.svg" alt="">
-            <img src="./img/dot.svg" alt="">
-            <img src="./img/dot-full.svg" alt="">
-            <img src="./img/dot-full.svg" alt="">
-            <img src="./img/arrow-right.svg" alt="">
+            <img onclick="plus(-1)" id="left" src="./img/arrow-left.svg" alt="">
+            <span onclick="num(0)"></span>
+            <span onclick="num(1)"></span>
+            <span onclick="num(2)"></span>
+            <img onclick="plus(1)" id="right" src="./img/arrow-right.svg" alt="">
         </div>
         <img class="big-circle" src="./img/big-eclipse.svg" alt="">
         <img class="mid-circle" src="./img/mid-eclipse.svg" alt="">
@@ -77,5 +83,7 @@
         </div>
     </section>
 
+
+    <script src="index.js"></script>
 </body>
 </html>
